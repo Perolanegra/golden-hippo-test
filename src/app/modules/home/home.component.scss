@@ -1,0 +1,12 @@
+.out {
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+
+    .content {
+        .body {
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+<div class="out">
+    <div class="content">
+    
+    
+        <div class="loop" *ngFor="let server of sService?.servers | async">
+            <button (click)="showDetails(server)">
+                {{ server.name }}
+            </button>
+        </div>
+    
+    
+        
+    </div>
+    
+    <div *ngIf="hasShowDetails" class="details">
+        <strong>Server Details</strong>
+        <br>
+
+        <span>Server Name:{{ currentDetails?.name }}</span>
+        <span>Host: {{ currentDetails?.host }}</span>
+        <span>Port: {{ currentDetails?.port }}</span>
+    </div>
+</div>

@@ -1,0 +1,19 @@
+
+.out {
+    display: flex;
+    .content {
+        display: flex;
+        padding: 10px;
+        flex-direction: column;
+        width: 20%;
+        .loop {
+            display: flex;
+            flex-direction: column
+        }
+    }
+
+    .details {
+        display: flex;
+    flex-direction: column;
+    }
+}
