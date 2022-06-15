@@ -1,3 +1,3 @@
 # golden hippo
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-ivy-djpc7p)
+[Edit on StackBlitz ⚡️](https://golden-hippo-25e91.web.app/#/home)
